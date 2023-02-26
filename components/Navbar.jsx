@@ -24,20 +24,20 @@ const Navbar = () => (
       whileInView="show"
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
-      <Image
+      {/* <Image
         src={search}
         alt="search-Icon"
         className="w-[24px] h-[24px] object-contain"
-      />
+      /> */}
 
-      <h2 className="font-extrabold text-[24px] leading-[30px] text-white ">
+      {/* <h2 className="font-extrabold text-[24px] leading-[30px] text-white ">
         METAVERSUS
-      </h2>
-      <Image
+      </h2> */}
+      {/* <Image
         src={menu}
         alt="menu-Icon"
         className="w-[24px] h-[24px] object-contain"
-      />
+      /> */}
     </motion.div>
   </nav>
 );
