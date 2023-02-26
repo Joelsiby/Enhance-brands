@@ -1,8 +1,8 @@
-import Planet_1 from "../public/planet-01.png";
-import Planet_2 from "../public/planet-02.png";
-import Planet_3 from "../public/planet-03.png";
-import Planet_4 from "../public/planet-04.png";
-import Planet_5 from "../public/planet-05.png";
+import Planet_1 from "../public/website3.jpg";
+import Planet_2 from "../public/app.jpg";
+import Planet_3 from "../public/Portfolio.jpg";
+import Planet_4 from "../public/flyers.jpg";
+import Planet_5 from "../public/socialmedia.jpg";
 import Planet_6 from "../public/planet-06.png";
 import Planet_7 from "../public/planet-07.png";
 import Planet_8 from "../public/planet-08.png";
@@ -17,69 +17,87 @@ export const exploreWorlds = [
   {
     id: "world-1",
     imgUrl: Planet_1,
-    title: "The Hogwarts",
+    title: "Website",
   },
   {
     id: "world-2",
     imgUrl: Planet_2,
-    title: "The Upside Down",
+    title: "App",
   },
   {
     id: "world-3",
     imgUrl: Planet_3,
-    title: "Kadirojo Permai",
+    title: "Portfolio",
   },
   {
     id: "world-4",
     imgUrl: Planet_4,
-    title: "Paradise Island",
+    title: "Flyers",
   },
   {
     id: "world-5",
     imgUrl: Planet_5,
-    title: "Hawkins Labs",
+    title: "Social Media Posts",
   },
 ];
 
 export const startingFeatures = [
   "Find a world that suits you and you want to enter",
-  "Enter the world by reading Har Har Mahadev to be safe",
-  "No need to beat around the bush, just stay on the gas and have fun",
+  "Enter the world with just an email",
+  "No need to beat around the bush, expect the result in 2 weeks",
 ];
 
 export const newFeatures = [
   {
     imgUrl: vrpano,
-    title: "A new world",
+    title: "Realtime Updates",
     subtitle:
-      "we have the latest update with new world for you to try never mind",
+      "Our team is dedicated to provide updates at your free time.",
   },
   {
     imgUrl: headset,
-    title: "More realistic",
+    title: "More Realistic",
     subtitle:
-      "In the latest update, your eyes are narrow, making the world more realistic than ever",
+      "We try to incorporate latest trends to be the best.",
   },
 ];
 
 export const insights = [
   {
     imgUrl: Planet_6,
-    title: "The launch of the Metaverse makes Elon musk ketar-ketir",
+    title: "Mr J",
     subtitle:
-      "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
+      "CEO.",
+      link:" ",
+      
   },
   {
     imgUrl: Planet_7,
-    title: "7 tips to easily master the madness of the Metaverse",
+    title: "Joel Siby",
     subtitle:
-      "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
+      "Web developer",
+      link:"https://portfolio-47c2b.web.app/#/",
   },
   {
     imgUrl: Planet_8,
-    title: "With one platform you can explore the whole world virtually",
+    title: "Lidin",
     subtitle:
-      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+      "App developer",
+      link:" ",
+  },
+  {
+    imgUrl: Planet_8,
+    title: "Jilson",
+    subtitle:
+      "Designer",
+      link:" ",
+  },
+  {
+    imgUrl: Planet_8,
+    title: "XYZ",
+    subtitle:
+      "Communications",
+      link:" ",
   },
 ];
 
