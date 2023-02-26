@@ -20,8 +20,7 @@ const World = () => (
       <TitleText
         title={
           <>
-            Track friends around you and invite them to play together in the
-            same world
+        Enable your Business to stand out in the Digital Arena.
           </>
         }
         textStyles="text-center"
@@ -29,7 +28,7 @@ const World = () => (
 
       <motion.div
         variants={fadeIn("up", "easeIn", "0.3", 1)}
-        className="relative mt-[68px] flex w-full lg:h-[550px] md:h-[360px] h-[170px]"
+        className="relative mt-[68px] flex w-full lg:h-[1000px] md:h-[360px] h-[170px]"
       >
         <Image src={fullmap} alt="map" className="w-full h-full object-cover" />
       </motion.div>
